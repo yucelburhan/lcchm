@@ -1,0 +1,38 @@
+== AES ==
+  bijective     bagimsiz=True                             analiz=True                             OK
+  comp_NL       bagimsiz=112                              analiz=112                              OK
+  NL_min        bagimsiz=112                              analiz=112                              OK
+  NL_avg        bagimsiz=112.0                            analiz=112.0                            OK
+  NL_max        bagimsiz=112                              analiz=112                              OK
+  BIC_NL_min    bagimsiz=112                              analiz=112                              OK
+  BIC_NL_avg    bagimsiz=112.0                            analiz=112.0                            OK
+  SAC_avg       bagimsiz=0.5048828125                     analiz=0.5048828125                     OK
+  SAC_min       bagimsiz=0.453125                         analiz=0.453125                         OK
+  SAC_max       bagimsiz=0.5625                           analiz=0.5625                           OK
+  BIC_SAC_avg   bagimsiz=0.5046037946428571               analiz=0.5046037946428571               OK
+  LP            bagimsiz=0.0625                           analiz=0.0625                           OK
+  DP            bagimsiz=0.015625                         analiz=0.015625                         OK
+  DU            bagimsiz=4                                analiz=4                                OK
+  fixed_points  bagimsiz=0                                analiz=0                                OK
+  NL_all        bagimsiz=[112, 112, 112, 112, 112, 112, 112, 112] analiz=[112, 112, 112, 112, 112, 112, 112, 112] OK
+  degrees       bagimsiz=[7, 7, 7, 7, 7, 7, 7, 7]         analiz=[7, 7, 7, 7, 7, 7, 7, 7]         OK
+  SONUC: TUM OLCUTLER ESLESIYOR
+== lccm_multikey_best.npy ==
+  bijective     bagimsiz=True                             analiz=True                             OK
+  comp_NL       bagimsiz=104                              analiz=104                              OK
+  NL_min        bagimsiz=108                              analiz=108                              OK
+  NL_avg        bagimsiz=109.5                            analiz=109.5                            OK
+  NL_max        bagimsiz=110                              analiz=110                              OK
+  BIC_NL_min    bagimsiz=104                              analiz=104                              OK
+  BIC_NL_avg    bagimsiz=105.71428571428571               analiz=105.71428571428571               OK
+  SAC_avg       bagimsiz=0.50537109375                    analiz=0.50537109375                    OK
+  SAC_min       bagimsiz=0.40625                          analiz=0.40625                          OK
+  SAC_max       bagimsiz=0.59375                          analiz=0.59375                          OK
+  BIC_SAC_avg   bagimsiz=0.5036272321428571               analiz=0.5036272321428571               OK
+  LP            bagimsiz=0.09375                          analiz=0.09375                          OK
+  DP            bagimsiz=0.03125                          analiz=0.03125                          OK
+  DU            bagimsiz=8                                analiz=8                                OK
+  fixed_points  bagimsiz=0                                analiz=0                                OK
+  NL_all        bagimsiz=[110, 110, 110, 110, 110, 110, 108, 108] analiz=[110, 110, 110, 110, 110, 110, 108, 108] OK
+  degrees       bagimsiz=[7, 7, 7, 7, 7, 7, 7, 7]         analiz=[7, 7, 7, 7, 7, 7, 7, 7]         OK
+  SONUC: TUM OLCUTLER ESLESIYOR

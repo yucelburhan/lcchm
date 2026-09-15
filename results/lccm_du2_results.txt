@@ -1,0 +1,24 @@
+Varyantlar ['V1', 'V2', 'V3'], 6 anahtar, 2000 iterasyon
+  V1 t5: ilk104@700, 104 ziyaret=11, en iyi DU=8 (#48) @it1707, 711s
+  V1 t4: ilk104@827, 104 ziyaret=2, en iyi DU=10 (#1) @it827, 727s
+  V1 t1: ilk104@307, 104 ziyaret=12, en iyi DU=8 (#42) @it476, 728s
+  V2 t0: ilk104@961, 104 ziyaret=2, en iyi DU=8 (#36) @it1827, 729s
+  V1 t0: ilk104@807, 104 ziyaret=4, en iyi DU=8 (#50) @it1783, 748s
+  V2 t3: ilk104@1474, 104 ziyaret=2, en iyi DU=8 (#35) @it1650, 755s
+  V1 t2: ilk104@463, 104 ziyaret=7, en iyi DU=8 (#40) @it463, 777s
+  V2 t4: ilk104@273, 104 ziyaret=8, en iyi DU=8 (#31) @it578, 793s
+  V2 t2: ilk104@893, 104 ziyaret=6, en iyi DU=8 (#35) @it1926, 798s
+  V2 t1: ilk104@1291, 104 ziyaret=6, en iyi DU=8 (#30) @it1798, 813s
+  V1 t3: ilk104@561, 104 ziyaret=7, en iyi DU=8 (#29) @it561, 818s
+  V3 t0: ilk104@None, 104 ziyaret=0, en iyi NL104 yok, 320s
+  V3 t2: ilk104@None, 104 ziyaret=0, en iyi NL104 yok, 333s
+  V3 t4: ilk104@None, 104 ziyaret=0, en iyi NL104 yok, 307s
+  V3 t3: ilk104@None, 104 ziyaret=0, en iyi NL104 yok, 317s
+  V2 t5: ilk104@222, 104 ziyaret=10, en iyi DU=8 (#29) @it837, 355s
+  V3 t1: ilk104@None, 104 ziyaret=0, en iyi NL104 yok, 340s
+  V3 t5: ilk104@None, 104 ziyaret=0, en iyi NL104 yok, 300s
+
+Ozet:
+  V1: NL104'e ulasan 6/6, DU dagilimi {np.int64(8): np.int64(5), np.int64(10): np.int64(1)}
+  V2: NL104'e ulasan 6/6, DU dagilimi {np.int64(8): np.int64(6)}
+  V3: NL104'e ulasan 0/6, DU dagilimi {}

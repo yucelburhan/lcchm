@@ -1,0 +1,13 @@
+Dogrulama:
+  NonOverlapping ornek: W=[2.0, 1.0] p=0.344154 (referans 0.344154) OK
+  Berlekamp-Massey ornek: L=4 (referans 4) OK
+  LFSR x^5+x^3+1 dizisi: L=5 (beklenen 5) OK
+  Aperiyodik sablon sayisi (m=9): 148 (referans 148) OK
+
+Test                                       gecen   oran  p-dagilim  sonuc
+  NonOverlapping sablon 101001000: 96/100 oran 0.960 p-dagilim 0.2248 KALDI
+NonOverlappingTemplate (148 sablon)                                147/148 gecti
+OverlappingTemplate (m=9)                 98/100  0.980     0.8677  GECTI
+LinearComplexity (M=500)                 100/100  1.000     0.8165  GECTI
+
+Genel: GECTI (Non-overlapping icin 148 sablonda <=3 rastgele basarisizlik kabul edilir)

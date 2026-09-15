@@ -1,0 +1,29 @@
+Test vektoru dogrulamasi (NIST SP 800-22 ornekleri; seri test sts-2.1.2 degerleri):
+  Frequency              hesap=0.109599 referans=0.109599 OK
+  BlockFrequency(M=10)   hesap=0.706438 referans=0.706438 OK
+  Runs                   hesap=0.500798 referans=0.500798 OK
+  CuSum-fwd              hesap=0.219194 referans=0.219194 OK
+  CuSum-bwd              hesap=0.114866 referans=0.114866 OK
+  ApproxEntropy(m=2)     hesap=0.235301 referans=0.235301 OK
+  Serial(m=3)-1          hesap=0.808792 referans=0.808792 OK
+  Serial(m=3)-2          hesap=0.670320 referans=0.670320 OK
+  Serial psi2_3          hesap=2.800000 referans=2.800000 OK
+
+2D-LCCM parametreleri: {'mu': 3.99, 'rho': 2.59, 'k': 5.3, 'lam': 0.7, 'beta': 1.0}
+Test               gecen/100   oran  p-dagilim p   sonuc
+Frequency             99/100  0.990       0.8978 GECTI
+BlockFrequency        99/100  0.990       0.9241 GECTI
+Runs                  99/100  0.990       0.6371 GECTI
+LongestRun            98/100  0.980       0.2622 GECTI
+Rank                 100/100  1.000       0.9463 GECTI
+DFT                   99/100  0.990       0.6787 GECTI
+Universal            100/100  1.000       0.2897 GECTI
+Serial-1             100/100  1.000       0.9114 GECTI
+Serial-2              99/100  0.990       0.1626 GECTI
+ApproxEntropy         98/100  0.980       0.2368 GECTI
+CuSum-fwd             99/100  0.990       0.6579 GECTI
+CuSum-bwd             99/100  0.990       0.4559 GECTI
+RandomExcursions      58/62   0.935       0.0000 KALDI
+RandExcVariant        58/62   0.935       0.0000 KALDI
+
+Genel: BAZI TESTLER KALDI (oran esigi ~0.9602, dagilim esigi 1e-4)

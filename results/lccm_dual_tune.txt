@@ -1,0 +1,27 @@
+AYAR: 8 maliyet x 2 tohum, butce 150000, hedef bilesen NL 104
+  whs_x32_r3   t1  cNL=98 (#max|W|=3)  hedef@None  deg=150000  375s
+  relu40_r6    t0  cNL=102 (#max|W|=3)  hedef@None  deg=150000  434s
+  relu32_r3    t1  cNL=102 (#max|W|=3)  hedef@None  deg=150000  470s
+  relu36_r4    t0  cNL=102 (#max|W|=1)  hedef@None  deg=150000  479s
+  whs_x0_r3    t1  cNL=100 (#max|W|=4)  hedef@None  deg=150000  482s
+  whs_x16_r4   t0  cNL=102 (#max|W|=4)  hedef@None  deg=150000  486s
+  whs_x16_r4   t1  cNL=102 (#max|W|=12)  hedef@None  deg=150000  503s
+  whs_x32_r3   t0  cNL=98 (#max|W|=1)  hedef@None  deg=150000  507s
+  whs_x0_r3    t0  cNL=100 (#max|W|=3)  hedef@None  deg=150000  517s
+  relu32_r3    t0  cNL=102 (#max|W|=4)  hedef@None  deg=150000  522s
+  relu36_r4    t1  cNL=102 (#max|W|=1)  hedef@None  deg=150000  526s
+  relu40_r6    t1  cNL=102 (#max|W|=4)  hedef@None  deg=150000  284s
+  exp4_w       t0  cNL=102 (#max|W|=1)  hedef@None  deg=150000  243s
+  exp4_w       t1  cNL=102 (#max|W|=4)  hedef@None  deg=150000  280s
+  exp8_w44     t0  cNL=102 (#max|W|=31)  hedef@None  deg=150000  280s
+  exp8_w44     t1  cNL=100 (#max|W|=3)  hedef@None  deg=150000  288s
+
+Ozet:
+  whs_x0_r3    cNL=[100, 100]  104'e ulasan 0/2  ort. degerlendirme=nan
+  whs_x32_r3   cNL=[98, 98]  104'e ulasan 0/2  ort. degerlendirme=nan
+  whs_x16_r4   cNL=[102, 102]  104'e ulasan 0/2  ort. degerlendirme=nan
+  relu32_r3    cNL=[102, 102]  104'e ulasan 0/2  ort. degerlendirme=nan
+  relu36_r4    cNL=[102, 102]  104'e ulasan 0/2  ort. degerlendirme=nan
+  relu40_r6    cNL=[102, 102]  104'e ulasan 0/2  ort. degerlendirme=nan
+  exp4_w       cNL=[102, 102]  104'e ulasan 0/2  ort. degerlendirme=nan
+  exp8_w44     cNL=[102, 100]  104'e ulasan 0/2  ort. degerlendirme=nan

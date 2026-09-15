@@ -1,0 +1,6 @@
+beta-lam : LE1>0 100.0%  hiperkaotik   6.4%  LE2 maks +0.645  (hiper bolgede LE1 ort 0.78)
+k-lam    : LE1>0 100.0%  hiperkaotik  26.0%  LE2 maks +0.603  (hiper bolgede LE1 ort 0.72)
+mu-lam   : LE1>0 100.0%  hiperkaotik   6.0%  LE2 maks +0.665  (hiper bolgede LE1 ort 0.87)
+rho-lam  : LE1>0 100.0%  hiperkaotik   7.5%  LE2 maks +0.543  (hiper bolgede LE1 ort 0.74)
+mu-rho   : LE1>0 100.0%  hiperkaotik   0.0%  LE2 maks -0.014  (hiper bolgede LE1 ort nan)
+k-beta   : LE1>0 100.0%  hiperkaotik   1.4%  LE2 maks +0.142  (hiper bolgede LE1 ort 0.91)

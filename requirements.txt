@@ -1,0 +1,5 @@
+numpy>=1.26
+matplotlib>=3.8
+pillow>=10
+# optional (only for lit_extract_sboxes.py on PDFs):
+pymupdf>=1.24

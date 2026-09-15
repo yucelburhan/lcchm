@@ -1,0 +1,23 @@
+2D-LCChM S-box (Aday A) ile goruntu sifreleme (duz-metne bagli anahtar, ileri+geri yayilim); anahtar x0=0.3141592653589793, y0=0.2718281828459045
+  [grace_hopper 512x512] SHA-256 etiketi: 3b64025f41e2992d...; etiketin 0./15./31. baytinda 1 bit bozukken cozulen goruntu entropisi 7.9993 / 7.9993 / 7.9991
+
+== grace_hopper 512x512 ==
+  cozme dogru: True
+  entropi: duz 7.0792  sifreli 7.9994  (ideal 8)
+  korelasyon yatay   : duz +0.9742  sifreli +0.0108
+  korelasyon dikey   : duz +0.9683  sifreli +0.0062
+  korelasyon kosegen : duz +0.9455  sifreli -0.0132
+  ki-kare: duz 573469.7  sifreli 226.4  (255 sd, %5 esik 293.2)
+  NPCR: 99.6128 %  (kritik %99.5893)   UACI: 33.5069 %  (kabul araligi 33.3730-33.5541)
+  anahtar hassasiyeti (x0+1e-14): sifreli goruntuler arasi NPCR 99.6056 %, UACI 33.4377 %; yanlis anahtarla cozulen goruntu entropisi 7.9993
+  [siyah 256x256] SHA-256 etiketi: de2f256064a0af79...; etiketin 0./15./31. baytinda 1 bit bozukken cozulen goruntu entropisi 7.9971 / 7.9977 / 7.9975
+
+== siyah 256x256 ==
+  cozme dogru: True
+  entropi: duz -0.0000  sifreli 7.9972  (ideal 8)
+  korelasyon yatay   : duz +nan  sifreli -0.0064
+  korelasyon dikey   : duz +nan  sifreli -0.0037
+  korelasyon kosegen : duz +nan  sifreli +0.0016
+  ki-kare: duz 16711680.0  sifreli 260.1  (255 sd, %5 esik 293.2)
+  NPCR: 99.5728 %  (kritik %99.5693)   UACI: 33.4359 %  (kabul araligi 33.2824-33.6447)
+  anahtar hassasiyeti (x0+1e-14): sifreli goruntuler arasi NPCR 99.6002 %, UACI 33.4078 %; yanlis anahtarla cozulen goruntu entropisi 7.9974

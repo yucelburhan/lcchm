@@ -1,0 +1,15 @@
+DU 6 denemesi: varyantlar ['D6a', 'D6b'], 5 anahtar, 3000 iterasyon
+  D6b t3: ilk DU6@None, en iyi: DU<=6=False NL=104 DU=8 (#33) @it2413, iz 250:102/8 750:102/8 1250:102/8 1750:102/8 2250:102/8 2750:102/8  (625s)
+  D6a t4: ilk DU6@None, en iyi: DU<=6=False NL=104 DU=8 (#24) @it1058, iz 250:102/8 750:102/8 1250:102/8 1750:102/8 2250:102/8 2750:102/8  (636s)
+  D6b t2: ilk DU6@None, en iyi: DU<=6=False NL=104 DU=8 (#27) @it1170, iz 250:102/8 750:102/8 1250:102/8 1750:102/8 2250:102/8 2750:102/8  (636s)
+  D6a t2: ilk DU6@None, en iyi: DU<=6=False NL=104 DU=8 (#27) @it1170, iz 250:102/8 750:102/8 1250:102/8 1750:102/8 2250:102/8 2750:102/8  (637s)
+  D6a t1: ilk DU6@None, en iyi: DU<=6=False NL=104 DU=8 (#21) @it1831, iz 250:102/8 750:102/8 1250:102/8 1750:102/8 2250:102/8 2750:102/8  (642s)
+  D6b t1: ilk DU6@None, en iyi: DU<=6=False NL=104 DU=8 (#30) @it327, iz 250:102/8 750:102/8 1250:102/8 1750:102/8 2250:102/8 2750:102/8  (642s)
+  D6b t0: ilk DU6@None, en iyi: DU<=6=False NL=104 DU=8 (#33) @it188, iz 250:102/8 750:102/8 1250:102/8 1750:102/8 2250:102/8 2750:102/8  (642s)
+  D6b t4: ilk DU6@None, en iyi: DU<=6=False NL=104 DU=8 (#24) @it1058, iz 250:102/8 750:102/8 1250:102/8 1750:102/8 2250:102/8 2750:102/8  (646s)
+  D6a t0: ilk DU6@None, en iyi: DU<=6=False NL=104 DU=8 (#25) @it2607, iz 250:102/8 750:102/8 1250:102/8 1750:102/8 2250:102/8 2750:102/8  (650s)
+  D6a t3: ilk DU6@None, en iyi: DU<=6=False NL=104 DU=8 (#33) @it2413, iz 250:102/8 750:102/8 1250:102/8 1750:102/8 2250:102/8 2750:102/8  (656s)
+
+Ozet (DU<=6 olan durumlarda ulasilan en yuksek bilesen NL):
+  D6a: t0: DU6 yok (en iyi NL 104 DU 8), t1: DU6 yok (en iyi NL 104 DU 8), t2: DU6 yok (en iyi NL 104 DU 8), t3: DU6 yok (en iyi NL 104 DU 8), t4: DU6 yok (en iyi NL 104 DU 8)
+  D6b: t0: DU6 yok (en iyi NL 104 DU 8), t1: DU6 yok (en iyi NL 104 DU 8), t2: DU6 yok (en iyi NL 104 DU 8), t3: DU6 yok (en iyi NL 104 DU 8), t4: DU6 yok (en iyi NL 104 DU 8)

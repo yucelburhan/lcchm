@@ -1,0 +1,32 @@
+Literatur S-box'larinin ayni kodla yeniden degerlendirilmesi (Artuger/Ozkaynak kapsam disi)
+Reddedilen (256 farkli deger testi basarisiz; HTML'den cikarim hatasi): yok
+
+S-box                                                           koordNL min/ort/maks  cNL      LP  DU     SAC   BICNL  BICSAC  FP  makalede raporlanan
+Lambić 2014 (CSF) – kaotik harita + bileşim                      108/109.25/112  104  0.0938   8  0.5012  108.21  0.5056   0  108/109.25/112, SAC 0.5012, BIC-NL min 104, max XOR 8, MELP 0.0352
+Zheng, Bao 2022 (Entropy) – kaskad kaotik harita [PDF]           106/107.50/110   94  0.1328  12  0.4961  104.57  0.4981   3  
+Ali, Khan vd. 2022 (PeerJ CS) – PWLCM [PDF]                      104/106.00/108   92  0.1406   8  0.4966  104.64  0.4985   0  
+Razaq, Ramzan vd. 2026 (Sci. Rep.) – Schreier grafları [PDF, Tablo 4]   110/111.25/112   94  0.1328  12  0.5059  103.00  0.4997   1  
+Banga, Mahmood vd. 2025 (PLOS One) – sekizgen geometri + kaos [PDF, tek hücre düzeltmeli]    98/102.75/108   92  0.1406  12  0.5020  102.93  0.5042   1  
+Yang, Wei, Wang 2021 (Entropy) – 2D çoklu çökme haritası         106/107.75/110   92  0.1406  10  0.4949  103.14  0.5034   2  106/107.75/110, SAC off 0.0327, BIC-NL 103.29, LP 0.1250, DP 0.0391
+Lu, Zhu, Wang 2020 (Entropy) – bileşik kaotik sistem             104/106.25/108   92  0.1406  12  0.5151  103.21  0.5049   0  104/106.3/110, SAC 0.505, BIC-NL 103.8, LP 0.125, DP 0.039
+Mahboob, Nadeem, Rasheed 2023 (Sci. Rep.) – metin-teorik yaklaşım   110/111.50/112   96  0.1250  10  0.4978  103.86  0.5017   1  BIC-NL 103.86, BIC-SAC 0.4964 (özet)
+Al Solami, Ahmad, Volos vd. 2018 (Entropy) – hiperkaotik sistem   106/108.50/110   94  0.1328  10  0.5017  104.00  0.5006   2  102/105/109, SAC 0.502, LP 0.1328, DP 0.0391 (PLOS One tablosundan)
+Abbasi, Rafiq vd. 2025 (Sci. Rep.) – genelleştirilmiş üçgen grubu   112/112.00/112  112  0.0625   4  0.5083  112.00  0.5057   2  
+Bu çalışma – Aday A (2D-LCChM)                                   108/109.50/110  104  0.0938   8  0.5054  105.71  0.5036   0  
+Bu çalışma – Aday B (2D-LCChM)                                   108/109.25/110  104  0.0938   8  0.5000  106.14  0.5027   0  
+AES                                                              112/112.00/112  112  0.0625   4  0.5049  112.00  0.5046   0  
+
+Gozlem: koordinat NL ort ile bilesen NL arasindaki fark (koord ort - cNL):
+  Lambić 2014 (CSF) – kaotik harita + bileşim                     +5.25
+  Zheng, Bao 2022 (Entropy) – kaskad kaotik harita [PDF]         +13.50
+  Ali, Khan vd. 2022 (PeerJ CS) – PWLCM [PDF]                    +14.00
+  Razaq, Ramzan vd. 2026 (Sci. Rep.) – Schreier grafları [PDF, Tablo 4] +17.25
+  Banga, Mahmood vd. 2025 (PLOS One) – sekizgen geometri + kaos [PDF, tek hücre düzeltmeli] +10.75
+  Yang, Wei, Wang 2021 (Entropy) – 2D çoklu çökme haritası       +15.75
+  Lu, Zhu, Wang 2020 (Entropy) – bileşik kaotik sistem           +14.25
+  Mahboob, Nadeem, Rasheed 2023 (Sci. Rep.) – metin-teorik yaklaşım +15.50
+  Al Solami, Ahmad, Volos vd. 2018 (Entropy) – hiperkaotik sistem +14.50
+  Abbasi, Rafiq vd. 2025 (Sci. Rep.) – genelleştirilmiş üçgen grubu  +0.00
+  Bu çalışma – Aday A (2D-LCChM)                                  +5.50
+  Bu çalışma – Aday B (2D-LCChM)                                  +5.25
+  AES                                                             +0.00

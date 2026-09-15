@@ -1,0 +1,5 @@
+Etiket hassasiyeti (Lena 256x256, 256 bitin her biri ayri ayri bozuldu):
+  cozulen goruntu entropisi: min 7.9964 ort 7.9972 maks 7.9978 (duz: 7.4429)
+  dogru piksel orani: min 0.00331 ort 0.00389 maks 0.00450 (rastgele beklenti 0.00391)
+  cozulen vs duz NPCR: min 99.5499 ort 99.6107
+  cozmeyi basaran bit sayisi (dogru piksel > %1): 0/256

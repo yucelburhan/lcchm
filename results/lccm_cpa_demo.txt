@@ -1,0 +1,4 @@
+Secilmis-duz-metin gosterimi (ayni ana anahtar x0, y0):
+  Lena vs siyah      : permutasyonda ayni konum orani 0.000000 (rastgele beklenti 0.000004); anahtar akisinda ayni bayt orani 0.0040 (rastgele beklenti 0.0039)
+  Lena vs Lena+1 bit : permutasyonda ayni konum orani 0.000000; anahtar akisinda ayni bayt orani 0.0038
+  Siyah goruntunun etiketiyle (saldirganin siyah goruntuden ogrendigi anahtar akisiyla) Lena'yi cozme: entropi 7.9992, dogru piksel orani 0.00381 (rastgele beklenti 0.00391)
